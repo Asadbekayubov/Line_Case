@@ -31,7 +31,7 @@
 }
 
 .Header h1 {
-    margin-left: 300px;
+    margin-left: 200px;
     padding-top: 20px;
     margin-bottom: 100px;
 }
@@ -39,13 +39,13 @@
 
 .Header h3 {
     font-size: 60px;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 .Header p {
     color: rgba(255, 255, 255, 0.712);
     margin-top: 30px;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 .content {
@@ -114,3 +114,6 @@
     margin-left: 200px;
     margin-top: 30px;
 }
+
+
+
