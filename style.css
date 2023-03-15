@@ -1,11 +1,11 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
 
-.content{
-    width: 100%;
+
+.content {
+    /* width: 100%; */
     height: 400px;
     background-color: #FFFFFF;
     border: 1px solid blue;
@@ -13,12 +13,31 @@
 }
 
 
-.content h1{
+.content h1 {
     font-family: sans-serif;
-    margin:20px 0px;
+    margin: 20px 0px;
     color: #2DA3D7;
 }
 
-.content p{
+.content p {
     width: 60%;
+}
+
+.Header{
+    width: 100%;
+    padding: 100px;
+    background-color: blue;
+    color: white;
+}
+
+.Header h3 {
+    font-size: 60px;
+    margin-left: 300px;
+}
+
+.Header p {
+    color: rgba(255, 255, 255, 0.712);
+    width: 40%;
+    margin-left: 20%;
+    margin-top: 30px;
 }
