@@ -2,27 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
-
-.content {
-    /* width: 100%; */
-    height: 400px;
-    background-color: #FFFFFF;
-    border: 1px solid blue;
-    padding-left: 250px;
-}
-
-
-.content h1 {
-    font-family: sans-serif;
-    margin: 20px 0px;
-    color: #2DA3D7;
-}
-
-.content p {
-    width: 60%;
-}
-
 .Header{
     width: 100%;
     padding: 100px;
@@ -40,4 +19,36 @@
     width: 40%;
     margin-left: 20%;
     margin-top: 30px;
+}
+
+.content {
+    width: 100%;
+    height: 400px;
+    background-color: #FFFFFF;
+    border: 1px solid blue;
+    padding-left: 250px;
+}
+
+
+.content h1 {
+    font-family: sans-serif;
+    margin: 20px 0px;
+    color: #2DA3D7;
+}
+
+.content p {
+    width: 60%;
+}
+.cards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cards .card 
+{
+    width: 15%;
+    height: 200px;
+    background-color: gray;
+    border-radius: 15px;
 }
